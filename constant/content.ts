@@ -1,5 +1,4 @@
 import type { Content } from "@/types/content";
-import { icons } from "lucide-react";
 
 export const PROJECT_LIST: Content[] = [
   {
