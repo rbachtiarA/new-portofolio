@@ -67,7 +67,7 @@ export const TECH_STACK = {
     slug: "frontend",
     title: "Frontend",
     description:
-      "Frameworks, libraries, and programming languages that I’ve utilized to build responsive, interactive, and scalable front-end applications.",
+      "Frameworks, libraries, and programming languages that I’ve used to build front-end applications.",
     mainTitle: "Frontend Development",
     item: [
       {
@@ -125,7 +125,7 @@ export const TECH_STACK = {
     title: "Backend",
     mainTitle: "Backend Development",
     description:
-      "Languages, frameworks, and tools I’ve used to create efficient, secure, and reliable backend systems that support modern web and mobile applications.",
+      "Programming languages and frameworks I’ve used to create backend systems that support web and mobile applications.",
     item: [
       {
         slug: "nodejs-express",
@@ -158,7 +158,7 @@ export const TECH_STACK = {
     title: "Data & SQL",
     mainTitle: "Database Development",
     description:
-      "Databases and tools I’ve used to store, organize, and access data efficiently while ensuring reliability and scalability for applications.",
+      "Databases and platforms I’ve used to store, organize, and access data for project applications.",
     item: [
       {
         slug: "mysql",
@@ -191,7 +191,7 @@ export const TECH_STACK = {
     title: "Tools",
     mainTitle: "Tools & Platforms",
     description:
-      "Design, collaboration, and development tools I rely on to streamline workflows, manage projects, and build better applications.",
+      "Application and program tools that i use to help my workflow and managing project easier",
     item: [
       {
         slug: "figma",

@@ -12,7 +12,7 @@ export default function ProjectFeatured() {
     <SectionWrapper id="project" threshold={0.1}>
       <h2>Featured Projects</h2>
       <p className="text-muted-foreground text-center">
-        A collection of projects I’ve crafted with passion, either built by
+        A collection of projects I’ve designed, developed, and built, either by
         myself or in collaboration with friends and fellow creators
       </p>
       <div className="grid max-w-[1400px] md:grid-cols-2 2xl:grid-cols-3 w-full justify-center gap-4">

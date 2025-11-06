@@ -20,9 +20,10 @@ export default function Welcome() {
           <Separator />
           <h2>Ryan Bachtiar Abdalla</h2>
           <p className="text-muted-foreground">
-            Crafting modern, user-focused web and software experiences inspired
-            by client goals and evolving digital trends. Dedicated to building
-            solutions that deliver both value and meaningful user engagement.
+            Mainly build and develop responsive, user-friendly web applications
+            based on user preferences. Also experienced in developing backend
+            server features for company projects that meet company standards and
+            requirements.
           </p>
           <div className="flex flex-col md:flex-row gap-2">
             <ContentParser content="Location: **Indonesia**" />

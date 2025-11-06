@@ -14,7 +14,7 @@ export default function AboutMe() {
           company. I'm **open to opportunities** not only in web development
           but also in mobile and software application development. My main focus
           is building responsive and robust applications using **TypeScript/Javascript** and
-          the NextJs framework, with experience in both **NextJs** and **NestJS**.
+          the NextJs framework, with experience in both **NextJs** and **NestJs**.
           I'm based in **Indonesia** and have experience working with remote
           teams. I hope you enjoy exploring my work!"
         />

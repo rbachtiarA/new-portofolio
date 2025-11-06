@@ -7,7 +7,7 @@ export default function ContactSection() {
       <h2>Let&apos;s Connected!</h2>
       <p className="text-muted-foreground">
         Feel free to contact me if you want to chat with me or want to discuss
-        interesting things
+        interesting things about app development.
       </p>
       <div>
         <ContactButton />
