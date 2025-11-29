@@ -7,6 +7,7 @@ import LeftSideBar from "@/components/sidebar/Left.Sidebar";
 import RightSideBar from "@/components/sidebar/Right.Sidebar";
 import Header from "@/components/main/Header/Header";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 
 const CustomFont = Manrope({
   subsets: ["latin"],
@@ -25,21 +26,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-62DYTD6MMR"
-      ></Script>
-      <Script
-        id="gta"
-        dangerouslySetInnerHTML={{
-          __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){window.dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-62DYTD6MMR');
-            `,
-        }}
-      />
       <body
         className={`${CustomFont.className} antialiased flex flex-col justify-center items-end h-screen`}
       >
@@ -63,6 +49,7 @@ export default function RootLayout({
             <RightSideBar />
           </MainWrapper>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
